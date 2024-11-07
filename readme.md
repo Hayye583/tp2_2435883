@@ -1,4 +1,4 @@
-# Travail pratique 2
+# Travail Pratique 2 – Git 
 Ce dépôt contient le code d’un projet web fait dans le cours de Perspective Professionnelles.
 ## Voici comment faire un changement sur ce projet, et l’envoyer sur GitHub.
 1. Faite la création d’un projet git. Il n’est pas nécessaire de faire des modifications dans le projet, hormis le nom. 
