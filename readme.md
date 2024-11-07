@@ -9,8 +9,8 @@ Ce dépôt contient le code d’un projet web fait dans le cours de Perspective 
 
 4. Faite un commit et un push.
 
-![image pour l'étape 1](/image/1.png)
-![image pour l'étape 2](/image/2.png)
+![image pour l'étape 1](/e.docs/1.png)
+![image pour l'étape 2](/e.docs/2.png)
 
 ## Contributeurs
 - Hayden Atemezem - Auteur principal
