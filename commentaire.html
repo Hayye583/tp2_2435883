@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Commantaire</title>
+</head>
+
+<body>
+    <div class="page">
+        <div class="flex-container">
+            <header>
+                <div class="flexImgnTxt">
+                    <a href="index.html"><img src="image/Splatoon_default_lightmode.png" alt="Image de calamar de splatoon" id="haut"></a>
+                    <h1>Splatoon 3</h1>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Acceuil</a></li>
+                        <li><a href="commentaire.html">Commentaire</a></li>
+                        <li><a href="galerie-image.html">Galerie photo</a></li>
+                    </ul>
+                </nav>
+                <a href="connexion..html" style="font-size: 25px;">S'inscrire</a>
+            </header>
+        </div>
+        <div class="flex-container">
+            <main>
+                <form action="mailto:paddlesquid@gmail.com" method="post" enctype="text/plain">
+                    <div class="flexbox">
+                        <label for="textPrenom">Prénom:</label>
+                        <input type="text" name="txtPrenom" id="textPrenom" placeholder="Prénom">
+                        <label for="textNom">Nom:</label>
+                        <input type="text" name="txtNom" id="textNom" placeholder="Nom">
+                        <label for="textEmail">Mail:</label>
+                        <input type="email" name="txtEmail" id="textEmail" placeholder="@gmail.com/@hotmail.com" required>
+                        <label for="phone">Téléphone:</label>
+                        <input type="tel" name="phone" id="phone" placeholder="###-###-####" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+        
+        
+                        <select name="province" id="province">
+                            <option value="QC" selected>Québec</option>
+                            <option value="AB">Alberta</option>
+                            <option value="MB">Manitoba</option>
+                            <option value="BC">Colombie-Britannique</option>
+                            <option value="ON">Ontario</option>
+                            <option value="SK">Saskatchewan</option>
+                        </select>
+        
+                        <input type="date" name="date" id="date">
+        
+        
+                        <textarea name="comment" id="" cols="30" rows="7" placeholder="Écrivé votre commentaire ici"></textarea>
+
+                        <h2>Quel arme utilise-tu?:</h2>    
+                        
+                        <div class="flexrow">
+                            <label for="action">Action</label>
+                            <input type="radio" name="arme" id="action">
+                            <label for="action">Comédie</label>
+                            <input type="radio" name="arme" id="comedie">
+                            <label for="action">Drame</label>
+                            <input type="radio" name="arme" id="drame">
+                            <label for="action">Suspense</label>
+                            <input type="radio" name="arme" id="suspense">
+                            <label for="action">Horreur</label>
+                            <input type="radio" name="arme" id="horreur">
+                        </div>
+                        <h2>À quel point apprécis-tu le site?:</h2>    
+                        
+                        <div class="flexrow">
+                            <label for="excellent">Excellent</label>
+                            <input type="radio" name="avis" id="excellent" checked>
+                            <label for="trbi">Très bien</label>
+                            <input type="radio" name="avis" id="trbi">
+                            <label for="moyen">Moyen</label>
+                            <input type="radio" name="avis" id="moyen">
+                            <label for="bof">Bof</label>
+                            <input type="radio" name="avis" id="bof">
+                        </div>
+                        <div class="button">
+                            <input type="submit" value="Envoyer" id="submit">
+                            <input type="reset" value="Réinitialiser">
+                        </div>
+                    </div>
+                </form>
+            </main>
+        </div>
+        <footer class="footer">
+            <p><a href="#haut">Haut-De-Page</a></p>
+            <p>CopyRight2024</p>
+            <p class="p">420-W11-SF</p>
+            <p>Travail Pratique1</p>
+            <p>Hayden Atemezem</p>
+        </footer>
+    </div>
+</body>
+
+</html>
